@@ -47,6 +47,7 @@ button {
   color: #000000;
   text-decoration: none;
   padding: 1rem;
+  width: 216px;
 }
 .header-links a {
   color: #000000;
@@ -73,6 +74,13 @@ button {
   color: #7C7C7C;
   text-align: center;
 }
+@media (max-width: 765px) {
+  .footer {
+    padding-bottom: 42rem !important;
+  }
+}
+
+
 
 ul{
   list-style-type: none;

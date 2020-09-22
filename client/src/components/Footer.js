@@ -6,8 +6,8 @@ const Footer = props => {
     return (
         <div className="footer"  >
             <div className="">
-                <div className="row text-center text-xs-center text-sm-left text-md-left">
-                    <div className="col-xs-12 col-sm-4 col-md-4">
+                <div className="row text-center text-xs-center text-lg-center text-sm-left text-md-left text-lg-left">
+                    <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <h5>Recent updates</h5>
                         <ul>
                             <li>Home</li>
@@ -17,7 +17,7 @@ const Footer = props => {
                             <li>Videos</li>
                         </ul>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-4">
+                    <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <h5>Who We Are</h5>
                         <ul>
                             <li>Home</li>
@@ -27,7 +27,7 @@ const Footer = props => {
                             <li>Videos</li>
                         </ul>
                     </div>
-                    <div className="col-xs-12 col-sm-4 col-md-4">
+                    <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                         <h5>Need Help?</h5>
                         <ul>
                             <li>Contact Us</li>

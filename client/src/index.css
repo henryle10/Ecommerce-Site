@@ -38,6 +38,7 @@ button {
   text-decoration: none;
   vertical-align: auto;
   margin-right: 22rem;
+  padding-left: 2rem;
 }
 .all-products {
   padding: 2rem;
@@ -47,8 +48,13 @@ button {
   color: #000000;
   text-decoration: none;
   padding: 1rem;
-  width: 216px;
 }
+@media (max-width: 768px) {
+  .header-links {
+    width: 374px;
+  }
+}
+
 .header-links a {
   color: #000000;
   text-decoration: none;
@@ -74,9 +80,17 @@ button {
   color: #7C7C7C;
   text-align: center;
 }
-@media (max-width: 765px) {
+@media (max-width: 813px) {
   .footer {
-    padding-bottom: 42rem !important;
+    padding-bottom: 44rem !important;
+  }
+}
+@media (min-width: 1367px) {
+  .footer{
+    padding-bottom: 24rem !important;
+  }
+  .footer .row {
+    margin-top: 5rem;
   }
 }
 
